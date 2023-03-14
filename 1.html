@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <h1>APPLICATION</h1>
+        <form action="https://formspree.io/f/xzbqvgpd" method="POST">
+             <h2>Personal Info.</h2>
+             <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                 </div>   
+                 <div class="input-box">
+                    <label for="dateofbirth">Date of Birth</label>
+                    <input class="dob1" type="text" name="DOB" placeholder="YY">
+			        <input class="dob" type="text" name="DOB" placeholder="MM">
+			        <input class="dob" type="text" name="DOB" placeholder="DD">
+                 </div>
+                 <div class="input-box">
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                 </div>
+                 <div class="input-box">
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" placeholder="Phone Number" name="phonenumber" required>
+                 </div>
+                 <span class="gender-title">Gender</span>
+                 <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="Female">
+                    <label for="gender">Female</label>
+                 </div>
+                 <div class="input-box">
+                    <label for="address">Address</label><br>
+                    <input type="text" placeholder="Street" name="Street" required>
+                    <input type="text" placeholder="Town" name="town" required>
+                    <input type="text" placeholder="Post code" name="Post code" required>
+                 </div>
+                 <div class="input-box">
+                    <label for="emergency-contact">Emergency Contact</label>
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="tel" placeholder="Phone Number" name="phonenumber" required>
+                 </div>
+             <div>
+                <p>By clicking submit, you agree to our <a href="#">terms and conditions</a></p>
+             </div>
+             <div class="button-container">
+                <button type="submit">Submit</button>
+             </div>
+        </form>
+    </div>
+</body>
+</html>
